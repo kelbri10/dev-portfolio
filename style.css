@@ -2,6 +2,10 @@ html{
     font-family: 'Courier Prime', monospace;
 }
 
+.container{ 
+    margin: 0 auto; 
+    width: 1080px; 
+}
 
 /*main nav bar */
 .main-navbar{ 
@@ -9,18 +13,33 @@ html{
     flex-direction: row;
     justify-content: center;
     list-style: none;
+
+    font-size: 1em;  
+    padding: 5px; 
 }
 
 .main-navbar li::before{
     content: '\00a0'; 
+    padding: 2px; 
 }
 
 .main-navbar li::after{ 
-    content: ' / ';
+    content: '\00a0';
+    padding: 2px; 
+}
+
+.main-navbar li:hover{ 
+    text-decoration: line-through solid #F3BA8E 2px;  
 }
 
 
 /*header*/
+header, section{ 
+    background-color: #96AFB8; 
+    margin-left: 5px; 
+    padding: 10px 10px; 
+}
+
 .main-header{ 
     font-size: 3rem;
 }
