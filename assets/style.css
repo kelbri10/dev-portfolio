@@ -2,10 +2,6 @@ html{
     font-family: 'Courier Prime', monospace;
 }
 
-.container{ 
-    margin: 0 auto; 
-    width: 1080px; 
-}
 
 /*main nav bar */
 .main-navbar{ 
@@ -15,17 +11,26 @@ html{
     list-style: none;
 
     font-size: 1em;  
-    padding: 5px; 
+
+    margin: 0px;  
+    padding: 10px 10px; 
+}
+
+.main-navbar a{ 
+    text-decoration: none;
+    color: black; 
 }
 
 .main-navbar li::before{
     content: '\00a0'; 
     padding: 2px; 
+   
 }
 
 .main-navbar li::after{ 
     content: '\00a0';
     padding: 2px; 
+   
 }
 
 .main-navbar li:hover{ 
@@ -34,13 +39,21 @@ html{
 
 
 /*header*/
-header, section{ 
-    background-color: #96AFB8; 
-    margin-left: 5px; 
-    padding: 10px 10px; 
+.main-container{ 
+    margin: 0 auto; 
+    width: 1080px; 
 }
-
 .main-header{ 
     font-size: 3rem;
 }
+
+/*social media */
+.social-media a{ 
+    text-decoration: none; 
+    padding-top: 5px; 
+    padding-left: 5px; 
+    color: black; 
+}
+
+
 

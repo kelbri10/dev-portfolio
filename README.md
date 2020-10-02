@@ -1,4 +1,3 @@
 # dev-portfolio
-
-## About Me 
+ 
 
