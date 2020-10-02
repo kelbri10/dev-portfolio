@@ -3,7 +3,7 @@ html{
 }
 
 
-/*main nav bar */
+/*main nav bar*/
 .main-navbar{ 
     display: flex;
     flex-direction: row;
@@ -38,13 +38,18 @@ html{
 }
 
 
-/*header*/
+/*headers*/
 .main-container{ 
     margin: 0 auto; 
     width: 1080px; 
 }
 .main-header{ 
     font-size: 3rem;
+}
+
+/* h3 page titles */
+h3{ 
+    border-style: solid; 
 }
 
 /*social media */
@@ -54,6 +59,7 @@ html{
     padding-left: 5px; 
     color: black; 
 }
+
 
 
 
