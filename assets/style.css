@@ -2,6 +2,7 @@ html{
     font-family: 'Courier Prime', monospace;
 }
 
+/*Index Css*/
 /*profile picture*/
 .profile-pic img{ 
     display: flex;  
@@ -62,9 +63,12 @@ html{
 
 /* h3 page titles */
 h3{ 
-    box-sizing: border-box;
-    border-style: solid; 
-    width: 300px; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+    
+    box-sizing: border-box; 
+    
     padding: 10px; 
 }
 
@@ -83,6 +87,32 @@ h3{
     color: black; 
 }
 
+/* Portfolio css */
+.project{ 
+    display: flex; 
+    flex: 2; 
+}
+/*card*/
+.card{ 
+    box-sizing: border-box; 
+    border-width: 2px; 
+    border-style: solid; 
+    border-color:  #F3BA8E; 
+    padding: 20px; 
+    margin: 20px; 
+    width: 500px; 
+}
+
+.card-btn{ 
+    display: inline-block; 
+    border: none; 
+    background-color: #F3BA8E; 
+    color: white; 
+    border-radius: 5%; 
+    margin: 5px; 
+}
+
+/*contact css*/
 /*button*/
 button{ 
     display: block; 
