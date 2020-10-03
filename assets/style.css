@@ -60,12 +60,12 @@ html{
     font-size: 1rem; 
 }
 
-/* mini-about me section */
-
 /* h3 page titles */
 h3{ 
     box-sizing: border-box;
     border-style: solid; 
+    width: 300px; 
+    padding: 10px; 
 }
 
 /*social media */
