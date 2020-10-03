@@ -40,6 +40,7 @@ html{
 
 /*headers*/
 .main-container{ 
+    box-sizing: border-box; 
     margin: 0 auto; 
     width: 1080px; 
 }
@@ -49,6 +50,7 @@ html{
 
 /* h3 page titles */
 h3{ 
+    box-sizing: border-box;
     border-style: solid; 
 }
 
@@ -60,6 +62,12 @@ h3{
     color: black; 
 }
 
+/*button*/
+button{ 
+    display: block; 
+    font-family: 'Courier Prime', monospace;
+    padding: 10px; 
+}
 
 
 
