@@ -2,6 +2,18 @@ html{
     font-family: 'Courier Prime', monospace;
 }
 
+/*profile picture*/
+.profile-pic img{ 
+    display: flex;  
+    margin: 0 auto; 
+    width: 200px; 
+    height: 200px;
+    
+    border-radius: 50%;
+    border-color:  #F3BA8E;
+    border-style: solid; 
+}
+
 
 /*main nav bar*/
 .main-navbar{ 
@@ -45,8 +57,10 @@ html{
     width: 1080px; 
 }
 .main-header{ 
-    font-size: 3rem;
+    font-size: 1rem; 
 }
+
+/* mini-about me section */
 
 /* h3 page titles */
 h3{ 
@@ -55,10 +69,17 @@ h3{
 }
 
 /*social media */
+.social-media{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
 .social-media a{ 
     text-decoration: none; 
     padding-top: 5px; 
-    padding-left: 5px; 
+    padding-right: 15px; 
     color: black; 
 }
 
@@ -69,5 +90,13 @@ button{
     padding: 10px; 
 }
 
-
-
+/*
+@media only screen and (max-width: 980px){ 
+    .profile-pic img{ 
+        display: flex;  
+        justify-content: left;
+        margin: 0 auto;  
+    }
+    
+}
+*/
