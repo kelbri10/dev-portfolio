@@ -2,13 +2,13 @@
 const viewBtn = document.getElementsByClassName('view-btn'); 
 const githubBtn = document.getElementsByClassName('github-btn'); 
 
-viewBtn.addEventListener('click', () => { 
+//viewBtn.addEventListener('click', () => { 
 
-}); 
 
-githubBtn.addEventListener('click', () => { 
 
-}); 
+//githubBtn.addEventListener('click', () => { 
+
+ 
 
 //submit button for contact.html 
 const submitBtn = document.getElementById('submit-btn'); 
